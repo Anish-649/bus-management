@@ -12,11 +12,11 @@ import {
   RiLogoutBoxLine,
 } from "react-icons/ri";
 
-import Dashboard from "../../pages/user/dashboard/Dashboard";
+
 import BookBus from "../../pages/user/bookBus/BookBus";
 import RouteList from "../../pages/user/routes/RouteList";
 import BookingHistory from "../../pages/user/history/BookingHistory";
-import Profile from "../../pages/user/profile/profile";
+import Profile from "../../pages/user/profile/Profile";
 
 export default function UserLayout() {
   const [active, setActive] = useState("book-bus");
