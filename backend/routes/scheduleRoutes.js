@@ -10,7 +10,7 @@ import {
 const router = express.Router();
 
 
-router.post("/search", searchBuses);
+router.post("/schedule/search", searchBuses);
 
 
 
