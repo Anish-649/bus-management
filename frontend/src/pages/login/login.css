@@ -1,0 +1,92 @@
+/* Container */
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #eef2f3;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Card */
+.login-card {
+  width: 380px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+}
+
+/* Tabs */
+.login-tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.login-tabs button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background: #dcdcdc;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.login-tabs button.active {
+  background: #0066ff;
+  color: white;
+}
+
+/* Form */
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background: #0066ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.login-form button:hover {
+  background: #004bcc;
+}
+
+/* Signup Link */
+.signup-link {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.signup-link a {
+  color: #0066ff;
+  font-weight: bold;
+}

@@ -1,0 +1,27 @@
+.dashboard-container {
+  padding: 20px;
+}
+
+.dashboard-cards {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.dash-card {
+  width: 200px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.dash-card h3 {
+  margin-bottom: 10px;
+}
+
+.dash-card p {
+  font-size: 22px;
+  font-weight: bold;
+}

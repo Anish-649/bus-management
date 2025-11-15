@@ -1,0 +1,19 @@
+.history-container {
+  padding: 20px;
+}
+
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.history-table th,
+.history-table td {
+  padding: 12px;
+  border: 1px solid #dcdcdc;
+}
+
+.history-table th {
+  background: #f0f0f0;
+}

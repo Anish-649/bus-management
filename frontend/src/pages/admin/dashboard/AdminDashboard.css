@@ -1,0 +1,47 @@
+.admin-dashboard {
+  padding: 20px;
+}
+
+.admin-dashboard h2 {
+  margin-bottom: 20px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card h3 {
+  font-size: 32px;
+  margin: 0;
+  color: #4c6ef5;
+}
+
+.card p {
+  margin-top: 5px;
+  color: #444;
+}
+
+.card.today {
+  background: #4c6ef5;
+  color: white;
+}
+
+.card.today h3 {
+  color: white;
+}
+
+.card.today p {
+  color: white;
+}

@@ -1,0 +1,52 @@
+.customer-container {
+  padding: 20px;
+}
+
+.customer-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.customer-table th,
+.customer-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.edit-btn {
+  background: #ffa94d;
+  padding: 6px 10px;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.delete-btn {
+  background: #ff6b6b;
+  padding: 6px 10px;
+  border: none;
+  color: white;
+  border-radius: 4px;
+}
+
+.edit-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.edit-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.edit-form button {
+  padding: 10px 15px;
+  background: #4c6ef5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}

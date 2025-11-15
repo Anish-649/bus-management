@@ -1,0 +1,59 @@
+.bus-container {
+  padding: 20px;
+}
+
+.bus-form {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.bus-form input,
+.bus-form select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.bus-form button {
+  grid-column: span 4;
+  padding: 12px;
+  background: #4c6ef5;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.bus-form button:hover {
+  background: #3b5bdb;
+}
+
+.bus-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.bus-table th,
+.bus-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+.edit-btn {
+  background: #ffa94d;
+  padding: 6px 10px;
+  border: none;
+  color: #fff;
+  margin-right: 5px;
+  border-radius: 4px;
+}
+
+.delete-btn {
+  background: #ff6b6b;
+  padding: 6px 10px;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+}

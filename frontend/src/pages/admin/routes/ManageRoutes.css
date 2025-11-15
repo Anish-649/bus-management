@@ -1,0 +1,57 @@
+.routes-container {
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.route-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.route-form input {
+  padding: 10px;
+  width: 180px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.route-form button {
+  padding: 10px 20px;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.routes-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.routes-table th,
+.routes-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.edit-btn {
+  background: #4ade80;
+  padding: 5px 12px;
+  border: none;
+  margin-right: 5px;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background: #f43f5e;
+  padding: 5px 12px;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}

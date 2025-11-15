@@ -1,0 +1,50 @@
+.schedule-container {
+  padding: 20px;
+}
+
+.schedule-form {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.schedule-form input,
+.schedule-form select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.schedule-form button {
+  grid-column: span 5;
+  padding: 12px;
+  background: #4c6ef5;
+  color: white;
+  border-radius: 6px;
+}
+
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.schedule-table th,
+.schedule-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+.edit-btn {
+  background: #ffa94d;
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.delete-btn {
+  background: #ff6b6b;
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: #fff;
+}

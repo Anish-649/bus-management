@@ -1,0 +1,16 @@
+.route-container {
+  padding: 20px;
+}
+
+.route-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.route-card {
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}

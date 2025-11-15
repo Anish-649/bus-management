@@ -1,0 +1,125 @@
+.profile-container {
+  padding: 20px;
+  width: 100%;
+}
+
+.profile-container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.profile-card {
+  background: #ffffff;
+  padding: 20px 25px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+  max-width: 450px;
+}
+
+.profile-card p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.profile-card b {
+  color: #333;
+}
+
+/* ---------- Buttons ---------- */
+
+.edit-btn,
+.change-pass-btn {
+  background-color: #0056ff;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.change-pass-btn {
+  background-color: #ff6600;
+}
+
+.edit-btn:hover,
+.change-pass-btn:hover {
+  opacity: 0.85;
+}
+
+/* ---------- Form Styling ---------- */
+
+.profile-card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-card label {
+  margin-top: 12px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.profile-card input {
+  padding: 10px;
+  margin-top: 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  width: 100%;
+  outline: none;
+  transition: 0.2s;
+}
+
+.profile-card input:focus {
+  border-color: #0056ff;
+}
+
+/* ---------- Save & Cancel Buttons ---------- */
+
+.profile-card button {
+  margin-top: 15px;
+  padding: 10px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  border: none;
+  transition: 0.2s;
+}
+
+.profile-card button[type="submit"],
+.profile-card .save-pass-btn {
+  background: #28a745;
+  color: white;
+}
+
+.profile-card button[type="submit"]:hover,
+.profile-card .save-pass-btn:hover {
+  background: #218838;
+}
+
+.profile-card .cancel-btn,
+.profile-card .cancel-pass-btn {
+  background: #d9534f;
+  color: white;
+}
+
+.profile-card .cancel-btn:hover,
+.profile-card .cancel-pass-btn:hover {
+  background: #c9302c;
+}
+
+/* ---------- Change Password Section ---------- */
+
+.change-pass-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.change-pass-box input {
+  margin-bottom: 10px;
+}

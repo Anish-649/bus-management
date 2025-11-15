@@ -1,0 +1,79 @@
+.bm-userLayout {
+  display: flex;
+  height: 100vh;
+  background: #f6f7fb;
+}
+
+/* LEFT SIDEBAR */
+.bm-left {
+  width: 250px;
+  background: #ffffff;
+  padding: 20px;
+  border-right: 1px solid #e6e6e6;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+
+.bm-user-profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top:1rem;
+  margin-bottom: 4rem;
+}
+
+.bm-avatar {
+  width: 50px;
+  height: 50px;
+  background: #0077ff;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+
+.bm-user-profile h4 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.bm-user-profile h5 {
+  margin: 0;
+  font-size: 0.9rem;
+  color: gray;
+}
+
+/* MENU */
+.bm-menu {
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* LOGOUT */
+.bm-logout button {
+  width: 100%;
+  padding: 10px;
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 18rem;
+}
+
+.bm-logout button:hover {
+  background: #e84141;
+}
+
+/* RIGHT CONTENT */
+.bm-right {
+  flex: 1;
+  padding: 25px;
+  overflow-y: auto;
+}
